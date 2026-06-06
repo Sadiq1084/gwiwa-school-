@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ Government junior Arabic secondary school Gwiwa  }}</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 50px; background: #f4f4f4; }
+        .box { background: white; padding: 30px; border-radius: 10px; max-width: 600px; margin: auto; }
+        h1 { color: #1a4d8f; }
+        .btn { background: #1a4d8f; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; }
+        .news { text-align: left; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>{{ Government junior Arabic secondary school Gwiwa  }}</h1>
+        <p>Welcome to our official website</p>
+        <a href="/login" class="btn">Login</a>
+        
+        <div class="news">
+            <h3>Latest News</h3>
+            <ul>
+                {% for item in news %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
