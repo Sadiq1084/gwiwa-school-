@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ school_name }}</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            margin: 0; 
+            background: #FFF8E7; 
+            color: #4B2E0F;
+        }
+        .header { 
+            background: #4B2E0F; 
+            color: #FFF8E7; 
+            padding: 30px 20px; 
+            border-bottom: 5px solid #D2B48C;
+        }
+        .logo { 
+            width: 100px; 
+            height: 100px; 
+            border-radius: 50%; 
+            margin: 0 auto 15px; 
+            border: 3px solid #FFF8E7;
+        }
+        h1 { margin: 10px 0; font-size: 22px; }
+        .content { padding: 30px 20px; }
+        .btn { 
+            background: #8B5A2B; 
+            color: #FFF8E7; 
+            padding: 12px 30px; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            display: inline-block; 
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .btn:hover { background: #6B4226; }
+        .footer { 
+            background: #4B2E0F; 
+            color: #FFF8E7; 
+            padding: 20px; 
+            margin-top: 40px; 
+            font-size: 14px;
+            border-top: 5px solid #D2B48C;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" class="logo" alt="School Logo">
+        <h1>{{ school_name }}</h1>
+        <p>Excellence in Education & Morals</p>
+    </div>
+
+    <div class="content">
+        <h2>Welcome to Our School</h2>
+        <p>We nurture students with quality Arabic & Western education since 2020.</p>
+        <br>
+        <a href="/login" class="btn">Student Login</a>
+        
+        <h3 style="margin-top: 40px;">Latest News</h3>
+        <p>📢 Admission for 2026/2027 session is now open!</p>
+    </div>
+
+    <div class="footer">
+        <p><b>Contact Us:</b></p>
+        <p>📍 Gwiwa, Kebbi State, Nigeria</p>
+        <p>📞 +234 800 XXXX</p>
+        <p>✉️ info@gwiwaschool.edu.ng</p>
+        <p style="margin-top: 10px;">© 2026 GOVERNMENT JUNIOR ARABIC SECONDARY SCHOOL GWIWA</p>
+    </div>
+</body>
+  </html>
