@@ -5,11 +5,11 @@ app = Flask(__name__)
 # ===== EDIT YOUR SCHOOL INFO HERE ONLY =====
 SCHOOL_NAME = "GOVERNMENT JUNIOR ARABIC SECONDARY SCHOOL, GWIWA"
 MOTTO = "Knowledge, Discipline, Excellence"
-PRINCIPAL_NAME = "Malam [Add Name Here]"
-ADDRESS = "Gwiwa, Katsina State, Nigeria"
+PRINCIPAL_NAME = "Malam [Haruna Isyaku]"
+ADDRESS = "Gwiwa, Jigawa  State, Nigeria"
 PHONE = "+234 800 000 0000"
-EMAIL = "gwiwaschool@email.com"
-YEAR_ESTABLISHED = "1995"
+EMAIL = "JASSGWIWA@GMAIL.COM"
+YEAR_ESTABLISHED = "2007"
 
 @app.route('/')
 def home():
