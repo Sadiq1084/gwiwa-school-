@@ -9,7 +9,7 @@ def home():
         "Mid-term exams start next Monday", 
         "Parents meeting this Friday 2PM"
     ]
-    return render_template('index.html', school_name="GWIWA School", news=news)
+    return render_template('index.html', school_name="Government junior Arabic secondary school Gwiwa ", news=news)
 
 if __name__ == '__main__':
     app.run()
